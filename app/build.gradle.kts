@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.roomdemoproject"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.roomdemoproject"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -34,12 +34,12 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.0"
-    }
+//    buildFeatures {
+//        compose = true
+//    }
+//    composeOptions {
+//        kotlinCompilerExtensionVersion = "1.5.0"
+//    }
 }
 
 dependencies {
